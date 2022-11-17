@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIBRARY</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="mysidenav " class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a class="active" href="Book">book</a>
+        <a class="active" href="Borrower">Borrower</a>
+        <a class="active" href="borrow-book">Borrow-book</a>
+        <a class="active" href="Return-book">Return-book</a>
+        <a class="active" href="Overdue-book">Overdue-book</a>
+        <a class="active" href="Category">Category</a>   
+        <a class="active" href="Manager">manage-user</a>
+        <a class="active" href="Report">Report</a>
+    </div>
+   
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; </span>
+    <script>
+        function openNav() {
+          document.getElementById("mySidenav").style.width = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidenav").style.width = "0";
+        }
+        </script>
+        <footer>
+            @paribeshsapkota
+        </footer>
+</body>
+</html>
